@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".mvvm_firebase_authentication.RegisterFragment"
+    android:background="#039BE5">
+
+    <EditText
+        android:id="@+id/edtNameFirebase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="Enter UserName"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/edtPasswordFirebase"
+        app:layout_constraintEnd_toEndOf="@+id/edtPasswordFirebase" />
+
+    <EditText
+        android:id="@+id/edtPasswordFirebase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="181dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="44dp"
+        android:text="Register"
+        app:layout_constraintEnd_toEndOf="@+id/edtPasswordFirebase"
+        app:layout_constraintTop_toBottomOf="@+id/edtPasswordFirebase" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "124580787325",
+    "project_id": "mvvmmodule-b3a44",
+    "storage_bucket": "mvvmmodule-b3a44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124580787325:android:3d8a1731d9d040b593ad14",
+        "android_client_info": {
+          "package_name": "arpit.parekh.mvvmmodule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124580787325-v7cmv5ttjg57fd6jclkbrc3bhcqn61mn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "arpit.parekh.mvvmmodule",
+            "certificate_hash": "e800ae9b400919d6dca947159cd4bea25653c741"
+          }
+        },
+        {
+          "client_id": "124580787325-f87jtfam3j62qfiiaijkj997g3ad4cfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQvQBgSmtSwpZKWq5q9BDZGeJYz9K6BC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124580787325-f87jtfam3j62qfiiaijkj997g3ad4cfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
